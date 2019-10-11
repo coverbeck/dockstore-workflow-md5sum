@@ -15,3 +15,7 @@ steps:
     in:
       input_file: input_file
     out: [output_file]
+
+doc: |
+  Only output alignments with number of CIGAR bases consuming query sequence ≥ INT [0]
+
